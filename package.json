@@ -1,11 +1,11 @@
 {
-  "author": "Jake Luer <jake@alogicalparadox.com>",
+  "author": "Andreas Gerlach <andi@appelgriebsch.com>",
   "name": "fbagent",
-  "description": "Thin, stateless Facebook Graph wrapper.",
+  "description": "Thin, stateless Facebook Graph wrapper w/ HTTP_PROXY support",
   "version": "0.5.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/logicalparadox/fbagent.git"
+    "url": "git://github.com/appelgriebsch/fbagent.git"
   },
   "main": "./index",
   "scripts": {
@@ -13,7 +13,8 @@
   },
   "dependencies": {
       "sherlock": "*"
-    , "superagent": "0.12.x"
+    , "superagent": "^1.4.0"
+    , "superagent-proxy": "^1.0.0"
     , "tea-extend": "0.2.x"
   },
   "devDependencies": {
